@@ -13,6 +13,11 @@ public class TestController {
         return "test";
     }
 
+    @GetMapping("/prueba2")
+    public String test2(){
+        return "prueba2";
+    }
+
     @GetMapping("/uuid")
     public String UUIDGenerator(){
         
