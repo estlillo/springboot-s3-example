@@ -6,9 +6,9 @@ phases:
       - echo Build phase...
       - mvn clean package
   post_build:
-  commands:
-    - echo Build completed successfully
+    commands:
+      - echo Build completed successfully
 artifacts:
   files:
-    - target/s3-example.jar
+    - target/s3-example-03.jar
   discard-paths: yes
