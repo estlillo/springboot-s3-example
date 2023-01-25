@@ -13,6 +13,11 @@ public class TestController {
         return "test";
     }
 
+    @GetMapping("/")
+    public String home(){
+        return "home";
+    }
+
     @GetMapping("/prueba2")
     public String test2(){
         return "prueba2";
