@@ -23,6 +23,11 @@ public class TestController {
         return "prueba2";
     }
 
+    @GetMapping("/feature")
+    public String getFeatureName(){
+        return "feature";
+    }
+
     @GetMapping("/uuid")
     public String UUIDGenerator(){
         
